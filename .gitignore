@@ -1,0 +1,14 @@
+venv
+.env
+models
+notifs
+tools
+output
+work_dir
+stt/systran
+*.mp3
+*.log
+*.txt
+*.json
+.vscode
+__pycache__
