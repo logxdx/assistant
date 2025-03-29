@@ -8,7 +8,7 @@ from colorama import Fore, Style
 
 from brain import get_assistant_model, get_response, greet_me
 from stt import stt
-from tts import TTS, TTS_11Labs, tts
+from tts import tts
 
 # Convert Markdown to plain text using BeautifulSoup
 def markdown_to_plaintext(md_text):
@@ -182,7 +182,7 @@ if __name__ == "__main__":
                     if "MODE:VOICE" in full_response:
                         OUTPUT_MODE = "VOICE"
                         if not speaker:
-                            speaker = TTS(**assistant[2])
+                            speaker = tts(**assistant["tts_config"])
                         speaker.speak("Voice mode activated.")
                         continue
                     elif "MODE:TEXT" in full_response:
