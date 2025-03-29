@@ -179,7 +179,7 @@ scratchpad_system_prompt = {
         "    - Make precise changes using diff-based editing "
         "    - Modify specific sections while preserving context "
         "    - Suggest refactoring improvements "
-        "Your scratchpad location is 'C:/Code/AI/whisper/work_dir/scratchpad.md'. You can read and edit the file as needed. "
+        "Your scratchpad location is 'C:/Code/AI/assistant/work_dir/scratchpad.md'. You can read and edit the file as needed. "
         "Output Format: "
         "You must provide responses in this JSON structure: "
         """

@@ -10,7 +10,7 @@ from brain import get_assistant_model, get_response, greet_me
 from stt import stt
 from tts import TTS, TTS_11Labs, tts
 
-
+# Convert Markdown to plain text using BeautifulSoup
 def markdown_to_plaintext(md_text):
     # Convert Markdown to HTML
     html_content = markdown.markdown(md_text)

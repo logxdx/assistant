@@ -12,7 +12,7 @@ Assistants = {
     {
         "name": "Jarvis",
         "keyword": "hey jarvis",
-        "oww_path": r"C:\Code\AI\whisper\models\oww\hey_jarvis.onnx", 
+        "oww_path": r"C:\Code\AI\assistant\models\oww\hey_jarvis.onnx", 
         "tts_config": {
             "voice": "am_onyx(1)+am_fenrir(1)",
             "speed": "1.25",
@@ -23,7 +23,7 @@ Assistants = {
     {
         "name": "Friday",
         "keyword": "friday",
-        "oww_path": r"C:\Code\AI\whisper\models\oww\FRYDAY.onnx",
+        "oww_path": r"C:\Code\AI\assistant\models\oww\FRYDAY.onnx",
         "tts_config": {
             "voice": "af_heart",
             "speed": "1.25",
